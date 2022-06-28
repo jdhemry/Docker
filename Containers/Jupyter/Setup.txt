@@ -1,0 +1,8 @@
+Jupyter Instructions
+
+
+## Getting rid of token requirement... allows keeping the container around
+	1) from Docker command prompt into container:
+		> jupyter notebook --generate-config
+	2) Set in the config file generated or existing
+		c.NotebookApp.token = ''
